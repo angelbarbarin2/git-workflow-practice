@@ -23,3 +23,14 @@ nav a {
 section {
     margin-bottom: 30px;
 }
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
